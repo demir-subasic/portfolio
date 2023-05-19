@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Konkhmer+Sleokchher&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 * {
     margin: 0;
     padding: 0;
@@ -6,4 +8,52 @@
 .full-hero-page{
     height: 100vh;
     width: 100%;
+}
+.main-content {
+    width: 50%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    margin-left: 170px;
+    margin-top: 80px;
+
+}
+.content-text {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    
+}
+.name {
+    font-size: 90px;
+    font-weight: 400;
+    font-family: 'Konkhmer Sleokchher', cursive;
+}
+.lastname {
+    margin-top: -100px;
+    font-family: 'Konkhmer Sleokchher', cursive;
+    font-weight: 500;
+    font-size: 130px;
+}
+.description{
+    margin-top: -50px;
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 7px;
+    color: rgb(204, 194, 194);
+}
+.btn-div {
+    margin-top: 22px;
+}
+.media {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin-right: 50px;
+    margin-bottom: 40px;
+}
+.media-icon {
+    font-size: 30px;
+    margin-left: 30px;
+    color: white;
 }

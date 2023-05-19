@@ -10,15 +10,16 @@ import { AiOutlineTwitter } from "react-icons/ai";
 import { FiFacebook } from "react-icons/fi";
 
 
+
 export default function HeroSection() {
   return (
     
     <div className='full-hero-page' style={{backgroundImage: `url(${herobg})`, backgroundRepeat: "no-repeat", backgroundSize: "cover"}}>
       <Navbar />
       <div className='main-content'>
-        <div content-text>
+        <div className='content-text' >
         <span className='name'>Demir</span>
-        <span className='surname'>Subasic</span>
+        <span className='lastname'>Subasic</span>
         <span className='description'>Frontend Developer</span>
         </div>
         <div className='btn-div'>
@@ -29,11 +30,11 @@ export default function HeroSection() {
       </div>
 
       <div className='media'>
-        <AiOutlineTwitter />
-        <AiOutlineInstagram />
-        <FiFacebook />
-        <AiOutlineLinkedin />
-        <AiOutlineGithub />
+        <a href='https://www.instagram.com/' target='_blank'><AiOutlineInstagram className='media-icon' /></a>
+        <a href='https://www.facebook.com/' target='_blank'><FiFacebook className='media-icon' /></a>
+       <a href='https://www.linkedin.com/in/demir-subasic-711b1b270/' target='_blank'><AiOutlineLinkedin className='media-icon' /></a>
+       <a href='https://github.com/demirsubasic2001' target='_blank'><AiOutlineGithub className='media-icon' /></a>
+        
       </div>
     </div>
   )
