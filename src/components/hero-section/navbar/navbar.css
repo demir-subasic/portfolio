@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+.nav {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: 90px;
+    width: 100%;
+    background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 50px;
+}
+.nav-ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 500px;
+}
+.nav-li{
+    font-size: 22px;
+    font-weight: 500;
+    color: whitesmoke;
+    font-family: 'Poppins', sans-serif;
+}
+.nav-li:hover {
+    color: #1da8d3;
+    cursor: pointer;
+    text-shadow: 0.5px 0.5px rgba(255, 255, 255, 0.164);
+    font-weight: 500;
+}
+.phone-number {
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+    color: white;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+}
+.phone-number:hover {
+    transform: scale(1.1);
+    transition: 0.4s;
+}
