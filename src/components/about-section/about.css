@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.about-full-page {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.photo-side {
+    background-color: blueviolet;
+    width: 50%;
+    height: 100vh;
+}
+.text-side {
+    background-color: brown;
+    width: 50%;
+    height: 100vh;
+}
