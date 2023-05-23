@@ -11,6 +11,11 @@
     align-items: center;
     padding: 0px 50px;
 }
+.nav:hover{
+    background-color: rgb(29, 28, 28);
+    transition: 0.5s;
+    cursor: pointer;
+}
 .nav-ul{
     list-style: none;
     display: flex;
@@ -24,7 +29,7 @@
     color: whitesmoke;
     font-family: 'Poppins', sans-serif;
 }
-.nav-li:hover {
+.nav-link:hover {
     color: #1da8d3;
     cursor: pointer;
     text-shadow: 0.5px 0.5px rgba(255, 255, 255, 0.164);
@@ -44,4 +49,15 @@
 .phone-number:hover {
     transform: scale(1.1);
     transition: 0.4s;
+}
+
+.nav-link {
+    font-size: 22px;
+    font-weight: 500;
+    color: whitesmoke;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+}
+ul li a.active {
+    color: #1da8d3;
 }

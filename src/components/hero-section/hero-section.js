@@ -1,13 +1,13 @@
 import React from 'react'
 import herobg from "../image/hero-bg.jpeg"
 import "./hero-section.css"
-import Navbar from './navbar/navbar'
 import Btn from '../mini-components/btn/btn'
 import { AiOutlineLinkedin } from "react-icons/ai";
 import { AiOutlineInstagram } from "react-icons/ai";
 import { AiOutlineGithub } from "react-icons/ai";
 import { AiOutlineTwitter } from "react-icons/ai";
 import { FiFacebook } from "react-icons/fi";
+import Navbar from './navbar/navbar';
 
 
 
@@ -23,8 +23,8 @@ export default function HeroSection() {
         <span className='description'>Frontend Developer</span>
         </div>
         <div className='btn-div'>
-            <Btn text="Resume" />
-            <Btn text="Portfolio" />
+            {/* <Btn text="Resume" />
+            <Btn text="Portfolio" /> */}
         </div>
         
       </div>
