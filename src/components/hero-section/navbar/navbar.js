@@ -20,9 +20,9 @@ export default function Navbar() {
 
         
 
-        <div className='right-side-nav'>
+        {/* <div className='right-side-nav'>
           <button className='phone-number'><BsPhone style={{marginRight: "10px"}} /> +381 66 512 78 78</button>
-        </div>
+        </div> */}
     </div>
   )
 }

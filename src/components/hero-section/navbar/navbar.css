@@ -7,9 +7,8 @@
     width: 100%;
     background-color: transparent;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
-    padding: 0px 50px;
 }
 .nav:hover{
     background-color: rgb(29, 28, 28);
@@ -21,7 +20,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 500px;
+    width: 800px;
 }
 .nav-li{
     font-size: 22px;
