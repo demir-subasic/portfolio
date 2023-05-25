@@ -17,9 +17,9 @@ export default function Contact() {
         </div>
         <div className="contact-wrapper">
             <div className="wrapper-left">
-                <ContactButton src={<BsFillTelephoneInboundFill />} text='+381 66 512 78 78'/>
-                <ContactButton src={<HiOutlineMailOpen />} text='subasicd200@gmail.com'/>
-                <ContactButton src={ <MdLocationOn />} text='Novi Pazar, Serbia'/>
+                <button className='phone all'><BsFillTelephoneInboundFill className='contact-icon'/><p className='button-text'>+381 66 512 7878</p></button>
+                <button className='email all'><HiOutlineMailOpen className='contact-icon' /><p className='button-text'>subasicd2000@gmail.com</p></button>
+                <button className='location all'><MdLocationOn className='contact-icon' /><p className='button-text'>Novi Pazar, Serbia</p></button>
             </div>
             <div className="wrapper-right">
              <form className='contact-form' action='contact-form'>
