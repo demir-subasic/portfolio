@@ -3,7 +3,30 @@
     padding: 0;
     box-sizing: border-box;
 }
-.works-full-page {
-    width: 100%;
+.works-full-page{
+    background-color: black;
     height: 100vh;
+}
+.item {
+    min-height: 34rem;
+    min-width: 43%;
+    padding: 30px;
+}
+.item img {
+    height: 100%;
+    width: 100%;
+    border-radius: 2rem;
+    object-fit: cover;
+    pointer-events: none;
+}
+.inner-carousel {
+    display: flex;
+}
+.carousel {
+    margin: 0% 20%;
+    cursor: grab;
+    overflow: hidden;
+}
+.slider-text{
+    color: blue;
 }
