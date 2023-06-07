@@ -9,6 +9,9 @@
     height: 100vh;
     width: 100%;
 }
+h1 {
+    display: none;
+}
 .main-content {
     width: 50%;
     height: auto;

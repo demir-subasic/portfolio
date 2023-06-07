@@ -24,7 +24,8 @@ export default function Works() {
               return (
                 <motion.div className='item' key={image}>
                   <img src={image.image} alt="" />
-                  <a href="https://www.google.com/"><p className='slider-text'>{image.text}</p></a>
+                  <div className='text-div'> <a href="https://www.google.com/"><p className='slider-text'>{image.text}</p></a></div>
+                 
                 </motion.div>
               )
             })}

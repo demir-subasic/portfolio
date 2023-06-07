@@ -16,6 +16,7 @@ export default function HeroSection() {
     <div className='full-hero-page' style={{backgroundImage: `url(${herobg})`, backgroundRepeat: "no-repeat", backgroundSize: "cover"}}>
       <Navbar />
       <div className='main-content'>
+        <h1>Demir Subasic</h1>
         <div className='content-text' >
         <span className='name'>Demir</span>
         <span className='lastname'>Subasic</span>
